@@ -116,11 +116,11 @@ const Hero = () => {
           </Heading>
           <Heading scale="md" mb="24px">
             {t(
-              'The next chapter in the Somnia Chain ecosystem is coming! Safemars is an automated market maker (AMM) that allows users to exchange tokens, providing liquidity via farming, staking, and earning rewards in return.',
+              'The next chapter in the Somnia Chain ecosystem is coming! Safemars is an automated market maker (AMM) that allows users to exchange tokens, provide liquidity via farming, staking, and earning rewards in return.',
             )}
           </Heading>
           <Flex>
-            {!account && <ConnectWalletButton mr="8px" />}
+            {/* {!account && <ConnectWalletButton mr="8px" />} */}
             <NextLinkFromReactRouter to="/swap">
               <Button variant={!account ? 'secondary' : 'primary'}>{t('Trade Now')}</Button>
             </NextLinkFromReactRouter>
