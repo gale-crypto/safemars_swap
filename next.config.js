@@ -127,6 +127,11 @@ const config = {
         permanent: true,
       },
       {
+        source: '/delete/:currency*',
+        destination: '/remove/:currency*',
+        permanent: true,
+      },      
+      {
         source: '/farms/archived',
         destination: '/farms/history',
         permanent: true,
